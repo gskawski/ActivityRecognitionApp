@@ -1,0 +1,10 @@
+cd ASUProjects/535/app
+cd ../
+
+export FLASK_APP=run.py
+export FLASK_ENV=development
+export FLASK_DEBUG=0
+flask run --host=0.0.0.0
+
+http://192.168.0.4:5000/
+http://192.168.0.4:5000/upload-video
